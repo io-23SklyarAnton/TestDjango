@@ -5,5 +5,6 @@ from . import views
 
 urlpatterns = [
     path('', views.hello, name='my-view'),
-    path('second/', views.second_page, name='second page')
+    path("showform/", views.showform, name="showform"),
+    path("getform/", views.getform, name="getform"),
 ]
